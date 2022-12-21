@@ -17,7 +17,7 @@ func F2() int {
 }
 
 func main() {
-	timeout := 1 * time.Second
+	timeout := 3 * time.Second
 	var wg sync.WaitGroup
 	c := make(chan struct{})
 	r1 := make(chan float64)
